@@ -23,6 +23,6 @@ curl -L 'https://heibox.uni-heidelberg.de/d/a7530b09fed84f80a887/files/?p=%2Fckp
 
 # Notes
 
-On Windows 10 to get pytorch with Cuda support, run this command:
+If you have a beefy GPU, you will want to process on that. Check if your GPU supports Cuda. To Install CUDA on Windows 10 to get pytorch with Cuda support, run this command:
 
 `pip install torch==1.9.0+cu102 torchvision==0.10.0+cu102 torchaudio===0.9.0 -f https://download.pytorch.org/whl/torch_stable.html`
